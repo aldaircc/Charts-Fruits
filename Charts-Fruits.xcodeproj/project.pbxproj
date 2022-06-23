@@ -14,6 +14,7 @@
 		052680BE2863E46800C06A88 /* Charts_FruitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052680BD2863E46800C06A88 /* Charts_FruitsTests.swift */; };
 		052680C82863E46800C06A88 /* Charts_FruitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052680C72863E46800C06A88 /* Charts_FruitsUITests.swift */; };
 		052680CA2863E46800C06A88 /* Charts_FruitsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052680C92863E46800C06A88 /* Charts_FruitsUITestsLaunchTests.swift */; };
+		052680D72863E5A800C06A88 /* Fruta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052680D62863E5A800C06A88 /* Fruta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		052680C32863E46800C06A88 /* Charts-FruitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Charts-FruitsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		052680C72863E46800C06A88 /* Charts_FruitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts_FruitsUITests.swift; sourceTree = "<group>"; };
 		052680C92863E46800C06A88 /* Charts_FruitsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts_FruitsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		052680D62863E5A800C06A88 /* Fruta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		052680AB2863E46600C06A88 /* Charts-Fruits */ = {
 			isa = PBXGroup;
 			children = (
+				052680D62863E5A800C06A88 /* Fruta.swift */,
 				052680AC2863E46600C06A88 /* Charts_FruitsApp.swift */,
 				052680AE2863E46600C06A88 /* ContentView.swift */,
 				052680B02863E46800C06A88 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			files = (
 				052680AF2863E46600C06A88 /* ContentView.swift in Sources */,
 				052680AD2863E46600C06A88 /* Charts_FruitsApp.swift in Sources */,
+				052680D72863E5A800C06A88 /* Fruta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,14 +6,23 @@
 //
 
 import SwiftUI
+import Charts
 
 struct ContentView: View {
+    
+    let datosFruta: [Fruta] = [
+        .init(nombre: "Durazno", cantidadConsumida: 5),
+        .init(nombre: "Manzana", cantidadConsumida: 7),
+        .init(nombre: "Pera", cantidadConsumida: 6),
+        .init(nombre: "Naranja", cantidadConsumida: 9)
+    ]
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Chart(datosFruta) { fruta in
+                BarMark(x: .value("Fruta", fruta.nombre),
+                        y: .value("Cantidad", fruta.cantidadConsumida))
+            }
         }
     }
 }
